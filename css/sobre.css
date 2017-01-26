@@ -6,6 +6,16 @@ body {
 header {
     position: relative;
 }
+p:first-letter {
+    font-weight: bold;
+}
+p:first-line {
+    font-variant: small-caps;
+}
+h2 + p {
+    text-indent: 20px;
+
+}
 .sacola {
     background: url(../img/sacola.png) no-repeat top right;
     font-size: 14px;
