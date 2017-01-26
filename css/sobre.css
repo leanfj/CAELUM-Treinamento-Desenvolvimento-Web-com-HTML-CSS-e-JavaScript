@@ -9,7 +9,7 @@ header {
 p:first-letter {
     font-weight: bold;
 }
-p:first-line {
+:not(p) + p:first-line {
     font-variant: small-caps;
 }
 h2 + p {
