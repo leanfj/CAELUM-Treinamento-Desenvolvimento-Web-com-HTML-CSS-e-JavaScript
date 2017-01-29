@@ -12,21 +12,9 @@
     <![endif]-->
 </head>
 <body>
-    <header class="container">
-        <h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
-        <p class="sacola">
-            Nenhum item na sacola de compras
-        </p>
-        <nav class="menu-opcoes">
-            <ul>
-                <li><a href="#">Sua Conta</a></li>
-                <li><a href="#">Lista de Desejos</a></li>
-                <li><a href="#">Cartão Fidelidade</a></li>
-                <li><a href="sobre.php">Sobre</a></li>
-                <li><a href="#">Ajuda</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!--Inicio Header-->
+    <?php include("cabecalho.php"); ?>
+    <!--Fim Header-->
     <div class="container destaque">
         <section class="busca">
             <h2>Busca</h2>
@@ -166,21 +154,8 @@
             </ol>
         </section>
     </div>
-    <footer>
-        <div class="container">
-            <img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
-            <ul class="social">
-                <li>
-                    <a href="https://www.facebook.com/mirrorfashion">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/mirrorfashion">Twitter</a>
-                </li>
-                <li>
-                    <a href="https://plus.google.com/mirrorfashion">Google+</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+    <!--Inicio Footer-->
+    <?php include("rodape.php"); ?>
+    <!--Fim Footer-->
 </body>
 </html>
