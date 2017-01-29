@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Sobre a Mirror Fashion</title>
-        <link rel="stylesheet" href="css/reset.css">
-
-        <link rel="stylesheet" href="css/sobre.css">
-        <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
-        <!--[if lt IE 9]>
-            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-    </head>
-    <body>
         <!--Inicio Header-->
-        <?php include("cabecalho.php"); ?>
+        <?php
+            $cabecalho_title = "Sobre Mirror Fashion";
+            $cabecalho_css = '<link rel="stylesheet" href="css/sobre.css">';
+            include("cabecalho.php"); ?>
         <!--Fim Header-->
         <div class="container">
             <article>
