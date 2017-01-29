@@ -33,6 +33,14 @@ header h1 img {
 .painel img {
     width: 100%;
 }
+@media (min-width: 320px) {
+
+    #centro-distribuicao,
+    #centro-distribuicao>img{
+        width: 70%;
+    }
+
+}
 @media (min-width: 480px) {
     header h1 {
         margin: 5px 0;
@@ -45,6 +53,11 @@ header h1 img {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
+    }
+
+    #centro-distribuicao,
+    #centro-distribuicao>img{
+        width: 80%;
     }
 }
 @media (min-width: 720px) {
@@ -73,4 +86,5 @@ header h1 img {
     .destaque img {
         width: 69%;
     }
+
 }
