@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Mirror Fashion</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
-    <!--[if lt IE 9]>
-        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
-    <![endif]-->
-</head>
-<body>
     <!--Inicio Header-->
-    <?php include("cabecalho.php"); ?>
+    <?php
+        $cabecalho_title = "Mirror Fashion";
+        include("cabecalho.php"); ?>
     <!--Fim Header-->
     <div class="container destaque">
         <section class="busca">
