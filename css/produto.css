@@ -90,6 +90,14 @@ label[for=azul]:after {
     padding: 0.5em 1em;
     margin: 1em 0;
 }
+.produto-back {
+    background-color: #f2f2f2;
+    margin-top: 1em;
+    border-top: 2px solid #ccc;
+}
+.cores label img {
+    border: 2px solid #ccc;
+}
 @media (min-width: 630px) {
     .produto {
         position: relative;
