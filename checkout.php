@@ -14,6 +14,19 @@
 
   </head>
   <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <a href="index.php" class="navbar-brand"><img src="img/logo-rodape.png" alt="Mirror Fashion"></a>
+        <button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse"><span class="glyphicon glyphicon-align-justify"></span></button>
+      </div>
+      <ul class="nav navbar-nav collapse navbar-collapse">
+        <li><a href="sobre.php"><span class="glyphicon glyphicon-home"></span>
+ Sobre</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Ajuda</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Perguntas Frequentes</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Entre em contato</a></li>
+      </ul>
+    </nav>
     <div class="jumbotron">
       <div class="container">
           <h1>Ótima escolha</h1>

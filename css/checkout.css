@@ -1,3 +1,13 @@
+.navbar {
+  margin: 0;
+}
 .form-control:invalid {
   border: 1px solid #cc0000;
+}
+body {
+  padding-top: 70px;
+}
+.navbar-inverse .navbar-toggle {
+  color: #f3f3f3;
+  border-color: #f3f3f3;
 }
