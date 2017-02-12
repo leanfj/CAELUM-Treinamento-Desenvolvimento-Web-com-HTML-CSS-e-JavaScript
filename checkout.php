@@ -38,6 +38,53 @@
             <dd><?= $_POST['tamanho'] ?></dd>
         </dl>
       </div>
+      <form action="">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" class="form-control" id="nome" name="nome" autofocus>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <div class="input-group">
+              <span class="input-group-addon">@</span>
+              <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com.br">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+          </div>
+          <div class="checkbox">
+            <label for="">
+              <input type="checkbox" value="sim" name="spam" checked>
+              Quero receber spam da Mirror Fashion
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Cartão de Crédito</legend>
+          <div class="form-group">
+            <label for="numero-cartao">Número - CVV</label>
+            <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+          </div>
+          <div class="form-group">
+            <label for="bandeira-cartao">Bandeira</label>
+            <select name="bandeira-cartao" id="bandeira-cartao" class="form-control">
+              <option value="master">MasterCard</option>
+              <option value="visa">VISA</option>
+              <option value="amex">American Express</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="validade-cartao">Validade</label>
+            <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+          </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary btn-lg pull-right">
+          <span class="glyphicon glyphicon-thumbs-up"> </span> Confirmar Pedido</button>
+      </form>
     </div>
   </div>
 </body>
