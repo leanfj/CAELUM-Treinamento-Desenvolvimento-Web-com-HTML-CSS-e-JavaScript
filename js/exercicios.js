@@ -17,3 +17,13 @@ for (var i = 1; i < 101; i++) {
   soma += i; //Atribuição de adição (soma = soma + i)
 };
 console.log(soma);
+//3)Crie um Array igual ao abaixo e mostre apenas os nomes das pessoas que tenham 4 letras.
+var pessoas = ["João", "José", "Maria", "Sebastião", "Antônio"];
+//Arrays são objetos do tipo lista que vêm com uma série de  métodos embutidos
+for (var i = 0; i < pessoas.length; i++) {
+  //Array.length Propriedade comprimento do construtor Array
+  if (pessoas[i].length === 4) {
+    //Acessa dentro da ARRAY o item que tem o valor estritamente igual a 4 no seu length
+    console.log(pessoas[i]);
+  };
+};
