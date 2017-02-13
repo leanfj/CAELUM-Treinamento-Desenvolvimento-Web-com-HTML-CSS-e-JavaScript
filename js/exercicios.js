@@ -10,3 +10,10 @@ for (var i = 1; i < 10; i++) {
   // CONSOLE.LOG mostra no console o valor da variável I
   };
 };
+//2) Escreva um código que calcule a soma de 1 até 100. (obs: a resposta é 5050)
+soma = 0;
+  //Atribuido o valor de 0 a variável soma
+for (var i = 1; i < 101; i++) {
+  soma += i; //Atribuição de adição (soma = soma + i)
+};
+console.log(soma);
