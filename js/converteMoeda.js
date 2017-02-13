@@ -1,10 +1,10 @@
-var numero = 9.9;
-var formatado = "R$ " + numero.toFixed(2).replace(".",",");
+function numberParaREal(numero) {
+  var formatado = "R$ " + numero.toFixed(2).replace(".",",");
+  return formatado;
+};
 
-console.log(formatado);
+function realParaNumber(texto) {
+  var valor = parseFloat(texto.replace("R$ ","").replace(",", "."));
+  return valor;
+};
 
-var texto = "R$ 120,35";
-
-var valor = parseFloat(texto.replace("R$ ","").replace(",", "."));
-
-console.log(valor);
