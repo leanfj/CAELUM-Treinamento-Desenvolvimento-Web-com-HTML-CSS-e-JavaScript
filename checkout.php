@@ -46,12 +46,22 @@
                 <dt>Produto</dt>
                   <dd><?= $_POST['nome']?></dd>
                 <dt>Preço</dt>
-                  <dd><?= "R$", $_POST['preco']?></dd>
+                  <dd id="preco"><?= "R$", $_POST['preco']?></dd>
                 <dt>Cor</dt>
                   <dd><?= $_POST['cor'] ?></dd>
                 <dt>Tamanho</dt>
                   <dd><?= $_POST['tamanho'] ?></dd>
               </dl>
+              <div class="form-group">
+                <label for="qt">Quantidade</label>
+                <input type="number" id="qt" class="form-control" min="0" max="99" value="1">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="total">Total</label>
+              <output for="qt valor" id="total" class="form-control">
+                <?= $_POST["preco"] ?>
+              </output>
             </div>
           </div>
         </div>
@@ -116,6 +126,7 @@
     </script>
     <script src="js/converteMoeda.js"></script>
     <script src="js/testaConversao.js"></script>
+    <script src="js/total.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->

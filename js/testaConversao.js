@@ -1,4 +1,4 @@
-var formatado = numberParaREal(10.5);
+var formatado = numberParaReal(10.5);
 var numero = realParaNumber("R$ 20,22");
 
 console.log(formatado);
