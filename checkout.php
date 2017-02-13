@@ -46,7 +46,7 @@
                 <dt>Produto</dt>
                   <dd><?= $_POST['nome']?></dd>
                 <dt>Preço</dt>
-                  <dd id="preco"><?= "R$", $_POST['preco']?></dd>
+                  <dd id="preco"><?= "R$ ", $_POST['preco']?></dd>
                 <dt>Cor</dt>
                   <dd><?= $_POST['cor'] ?></dd>
                 <dt>Tamanho</dt>
@@ -124,12 +124,13 @@
         }
       };
     </script>
-    <script src="js/converteMoeda.js"></script>
-    <script src="js/testaConversao.js"></script>
-    <script src="js/total.js"></script>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/converteMoeda.js"></script>
+    <script src="js/testaConversao.js"></script>
+    <script src="js/total.js"></script>
   </body>
 </html>
