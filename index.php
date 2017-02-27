@@ -33,6 +33,7 @@
             </nav>
         </section><!--fim .menu-departamentos-->
         <img src="img/destaque-home.png" alt="Promoção: Big City Night">
+        <a href="#" class="pause"></a>
     </div><!--fim .container .destaque-->
     <div class="container paineis">
         <section class="painel novidades">

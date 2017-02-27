@@ -10,4 +10,21 @@ function trocaBanner () {
     document.querySelector('.destaque img').src = banners[bannerAtual];
 }
 
-setInterval(trocaBanner, 4000);
+//Implementação de botão de pause
+//coloca dentro da variável timer a função setInterval
+var timer = setInterval(trocaBanner, 4000);
+//cria variável de controle para selecionar o botão dentro do DOM
+var controle = document.querySelector('.pause');
+
+//acessa evento onclick do elemento selecionado
+controle.onclick = function () {
+    //cria a condição de pausa e play verificando o valor da propriedade do seletor de classe. Modifica o valor da propriedade para validar a condição.
+    if (controle.className == 'pause') {
+        clearInterval(timer);
+        controle.className = 'play';
+    }else {
+        timer = setInterval(trocaBanner, 4000);
+        controle.className = 'pause';
+    }
+    return false;
+};
