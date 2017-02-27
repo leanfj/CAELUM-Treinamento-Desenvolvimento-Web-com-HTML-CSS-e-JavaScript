@@ -146,6 +146,6 @@
     <!--Inicio Footer-->
     <?php include("rodape.php"); ?>
     <!--Fim Footer-->
-    <script src="js/banner.js"></script>
+    <script src="js/home.js"></script>
 </body>
 </html>

@@ -16,8 +16,8 @@ var timer = setInterval(trocaBanner, 4000);
 //cria variável de controle para selecionar o botão dentro do DOM
 var controle = document.querySelector('.pause');
 
-//acessa evento onclick do elemento selecionado
-controle.onclick = function () {
+//Modificado o acesso evento click do elemento selecionado
+controle.addEventListener('click', function () {
     //cria a condição de pausa e play verificando o valor da propriedade do seletor de classe. Modifica o valor da propriedade para validar a condição.
     if (controle.className == 'pause') {
         clearInterval(timer);
@@ -27,4 +27,4 @@ controle.onclick = function () {
         controle.className = 'pause';
     }
     return false;
-};
+});
