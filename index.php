@@ -87,7 +87,16 @@
                         </figure>
                     </a>
                 </li>
+                <li>
+                    <a href="produto6.html">
+                        <figure>
+                            <img src="img/produtos/miniatura6.png" alt="Produto 6">
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
             </ol>
+            <button type="button">Mostrar mais</button>
         </section>
         <section class="painel mais-vendidos">
             <h2>Mais Vendidos</h2>
@@ -140,12 +149,22 @@
                         </figure>
                     </a>
                 </li>
+                <li>
+                    <a href="produto6.html">
+                        <figure>
+                            <img src="img/produtos/miniatura6.png" alt="Produto 6">
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
             </ol>
+            <button type="button">Mostrar Mais</button>
         </section>
     </div>
     <!--Inicio Footer-->
     <?php include("rodape.php"); ?>
     <!--Fim Footer-->
+    <script src="js/jquery.js"></script>
     <script src="js/home.js"></script>
 </body>
 </html>

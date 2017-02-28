@@ -1,3 +1,5 @@
+//Implementação de banner rotativo 11.18 - Exercício opcional: banner rotativo
+
 // array para receber as imagens
 var banners = ["../img/destaque-home.png", "../img/destaque-home-2.png"];
 // setar o valor atual
@@ -27,4 +29,15 @@ controle.addEventListener('click', function () {
         controle.className = 'pause';
     }
     return false;
+});
+
+//configuração de botão mostrar mais 12.7 - Exercícios: jQuery na home
+//Inclusão de classe css no elemento selecionado pelas classes novidade e mai-vendidos
+$('.novidades, .mais-vendidos').addClass('painel-compacto');
+//Função de click no button para remover classe
+$('.novidades button').click(function () {
+    $('.novidades').removeClass('painel-compacto');
+});
+$('.mais-vendidos button').click(function () {
+    $('.mais-vendidos').removeClass('painel-compacto');
 });
