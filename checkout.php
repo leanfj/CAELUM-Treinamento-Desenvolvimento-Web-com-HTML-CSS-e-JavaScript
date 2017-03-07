@@ -94,8 +94,8 @@
             <fieldset class="col-md-6">
               <legend>Cartão de Crédito</legend>
               <div class="form-group">
-                <label for="numero-cartao">Número - CVV</label>
-                <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+                <label for="numero_cartao">Número - CVV</label>
+                <input type="text" class="form-control" id="numero_cartao" name="numero_cartao">
               </div>
               <div class="form-group">
                 <label for="bandeira-cartao">Bandeira</label>
@@ -132,5 +132,9 @@
     <script src="js/converteMoeda.js"></script>
     <script src="js/testaConversao.js"></script>
     <script src="js/total.js"></script>
+    <script src="js/inputmask.js"></script>
+    <script src="js/inputmask.numeric.extensions.js"></script>
+    <script src="js/jquery.inputmask.js"></script>
+    <script src="js/checkout.js"></script>
   </body>
 </html>
