@@ -9,16 +9,20 @@ function trocaBanner () {
     // variável setada para 0 recebe o valor do resto da soma dela com 1
     bannerAtual = (bannerAtual + 1) % 2;
     // utilizado o querySelector para modificar o valor do seu source(src) com o valor do item da array que será definido pela variavel bannerAtual 
-    document.querySelector('.destaque img').src = banners[bannerAtual];
+    // document.querySelector('.destaque img').src = banners[bannerAtual];
+    // 12.12 - Exercícios opcionais - implementação usando jquery
+    $('.destaque img').attr("src", banners[bannerAtual]);
 }
 
 //Implementação de botão de pause
 //coloca dentro da variável timer a função setInterval
-var timer = setInterval(trocaBanner, 4000);
+var timer = setInterval(trocaBanner, 3000);
 //cria variável de controle para selecionar o botão dentro do DOM
 var controle = document.querySelector('.pause');
 
 //Modificado o acesso evento click do elemento selecionado
+
+
 controle.addEventListener('click', function () {
     //cria a condição de pausa e play verificando o valor da propriedade do seletor de classe. Modifica o valor da propriedade para validar a condição.
     if (controle.className == 'pause') {
