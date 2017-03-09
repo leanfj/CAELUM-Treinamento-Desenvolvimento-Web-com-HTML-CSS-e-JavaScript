@@ -78,6 +78,10 @@ figcaption {
     margin: 0 0 10px 10px;
 
 }
+.youtube {
+    display: block;
+    margin: 10px auto;
+}
 footer {
     background-image: url(../img/fundo-rodape.png);
     clear: both;

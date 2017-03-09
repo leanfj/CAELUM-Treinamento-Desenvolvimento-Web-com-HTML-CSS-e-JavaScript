@@ -63,16 +63,17 @@
                 </section>
                 <section>
                     <h2 id="diferenciais">Diferenciais</h2>
-                        <ul>
-                            <li>Menor preço do varejo, garantido</li>
-                            <li>Se você achar uma loja mais barata, leva o produto de graça</li>
-                            <li>Pague em reais, dólares, euros ou bitcoins</li>
-                            <li>Todas as compras com frete grátis para o mundo todo</li>
-                            <li>Maior comércio eletrônico de moda do mundo</li>
-                            <li>Atendimento via telefone, email, chat, twitter, facebook, carta, fax e telegrama</li>
-                            <li>Presente em 124 países</li>
-                            <li>Mais de um milhão de funcionários em todo o mundo</li>
-                        </ul>
+                    <ul>
+                        <li>Menor preço do varejo, garantido</li>
+                        <li>Se você achar uma loja mais barata, leva o produto de graça</li>
+                        <li>Pague em reais, dólares, euros ou bitcoins</li>
+                        <li>Todas as compras com frete grátis para o mundo todo</li>
+                        <li>Maior comércio eletrônico de moda do mundo</li>
+                        <li>Atendimento via telefone, email, chat, twitter, facebook, carta, fax e telegrama</li>
+                        <li>Presente em 124 países</li>
+                        <li>Mais de um milhão de funcionários em todo o mundo</li>
+                    </ul>
+                    <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/Tb06abHE4hY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 </section>
             </article>
         </div>
