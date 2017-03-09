@@ -72,6 +72,12 @@ figcaption {
     margin-right: auto;
     width: 550px;
 }
+.maps {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+}
 
 #familia-pelho {
     float: right;

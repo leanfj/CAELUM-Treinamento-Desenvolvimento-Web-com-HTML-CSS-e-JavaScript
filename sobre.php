@@ -23,6 +23,7 @@
                         <img src="img/centro-distribuicao.png" alt="centro de distribuicao">
                         <figcaption>Centro de distribuição da Mirro Fashion</figcaption>
                     </figure>
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14702.656303770138!2d-43.265618669895176!3d-22.888864460333338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c25de230aaf%3A0x82e58863da57cf30!2sJacarezinho%2C+Rio+de+Janeiro+-+RJ!5e0!3m2!1spt-BR!2sbr!4v1489087967272" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <p>
                         Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.html">nossa loja</a> ou entre em contato
                         se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="#diferenciais">diferenciais</a>.
