@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/estilos.css">
         <?php print @$cabecalho_css; ?>
         <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
+        <link href="https://fonts.googleapis.com/css?family=Bad+Script|PT+Sans|Source+Code+Pro" rel="stylesheet">
         <meta name="viewport" content="width=device-width">
         <!--[if lt IE 9]>
             <script src="bower_components/html5shiv/dist/html5shiv.js"></script>

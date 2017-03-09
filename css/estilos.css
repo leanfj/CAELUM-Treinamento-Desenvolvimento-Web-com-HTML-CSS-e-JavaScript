@@ -1,6 +1,6 @@
 body {
     color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 .container {
     margin: 0 auto;
@@ -122,6 +122,7 @@ header {
     box-shadow: inset 1px 1px 4px #999;
 }
 .painel h2{
+    font-family: 'Bad Script', sans-serif;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;

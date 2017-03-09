@@ -9,6 +9,7 @@
     margin-top: 2em;
 }
 .produto h1 {
+    font-family: 'Source Code Pro', monospace;
     font-size: 1.8em;
     font-weight: bold;
 }
