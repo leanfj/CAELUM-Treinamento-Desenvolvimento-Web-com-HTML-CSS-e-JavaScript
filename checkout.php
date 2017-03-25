@@ -46,7 +46,7 @@
                 <dt>Produto</dt>
                   <dd><?= $_POST['nome']?></dd>
                 <dt>Preço</dt>
-                  <dd id="preco"><?= "R$ ", $_POST['preco']?></dd>
+                  <dd id="preco"><?= $_POST['preco']?></dd>
                 <dt>Cor</dt>
                   <dd><?= $_POST['cor'] ?></dd>
                 <dt>Tamanho</dt>
@@ -60,7 +60,7 @@
             <div class="form-group">
               <label for="total">Total</label>
               <output for="qt valor" id="total" class="form-control">
-                <?= $_POST["preco"] ?>
+                <?= $_POST['preco'] ?>
               </output>
             </div>
           </div>
