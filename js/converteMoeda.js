@@ -4,7 +4,9 @@ function numberParaReal(numero) {
 };
 
 function realParaNumber(texto) {
-  var valor = parseFloat(texto.replace("R$ ",""));
+  var compativelComParseFloat = texto.replace("R$ ", "");
+  compativelComParseFloat = compativelComParseFloat.replace(",", ".");
+  var valor = parseFloat(compativelComParseFloat);
   return valor;
 };
 

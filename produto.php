@@ -18,8 +18,8 @@
                         <fieldset class="cores">
                             <legend>Escolaha a cor:</legend>
 
-                            <input type="hidden" name="nome" value="<?= $produto['nome']?>">
-                            <input type="hidden" name="preco" value="<?= $produto['preco']?>">
+                            <!--<input type="hidden" name="nome" value="<?= $produto['nome']?>">-->
+                            <!--<input type="hidden" name="preco" value="<?= $produto['preco']?>">-->
                             <input type="hidden" name="id" value="<?= $produto['id'] ?>">
 
                             <input type="radio" name="cor" value="verde" id="verde" checked>

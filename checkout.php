@@ -40,13 +40,18 @@
             <div class="panel-heading">
               <h2>Sua compra</h2>
             </div>
+            <?php
+                  $conexao = mysqli_connect("127.0.0.1", "root", "", "WD43");
+                  $dados = mysqli_query($conexao, "SELECT * FROM produtos WHERE id = $_POST[id]");
+                  $produto = mysqli_fetch_array($dados)        
+            ?>
             <div class="panel-body">
-              <img src="img/produtos/foto2-<?= $_POST['cor'] ?>.png" class="hidden-xs img-thumbnail img-responsive">
+              <img src="img/produtos/foto<?= $produto['id']?>-<?= $_POST['cor'] ?>.png" class="hidden-xs img-thumbnail img-responsive">
               <dl>
                 <dt>Produto</dt>
-                  <dd><?= $_POST['nome']?></dd>
+                  <dd><?= $produto['nome']?></dd>
                 <dt>Preço</dt>
-                  <dd id="preco"><?= $_POST['preco']?></dd>
+                  <dd id="preco"><?= $produto['preco']?></dd>
                 <dt>Cor</dt>
                   <dd><?= $_POST['cor'] ?></dd>
                 <dt>Tamanho</dt>
@@ -60,7 +65,7 @@
             <div class="form-group">
               <label for="total">Total</label>
               <output for="qt valor" id="total" class="form-control">
-                <?= $_POST['preco'] ?>
+                <?= $produto['preco'] ?>
               </output>
             </div>
           </div>
